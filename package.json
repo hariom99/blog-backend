@@ -1,0 +1,17 @@
+{
+  "name": "blog-backend",
+  "version": "1.0.0",
+  "description": "node application for handeling blogs at backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon"
+  },
+  "author": "hariom kourav",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
+  }
+}
