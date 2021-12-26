@@ -17,7 +17,7 @@ app.use("/api/v1/register-user", registerRouter);
 app.use("/api/v1/login/", loginRouter)
 
 
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
     console.log("Server Started...at port", PORT);
 })
