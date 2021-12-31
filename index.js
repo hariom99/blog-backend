@@ -16,6 +16,7 @@ app.use("/api/v1/home-articles", homeArticles);
 app.use("/api/v1/register-user", registerRouter);
 app.use("/api/v1/login/", loginRouter)
 
+// http:localhost:8000/api/v1/login/
 
 const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
