@@ -8,7 +8,7 @@ registerRouter.post("/", (req, res) => {
         registerdUsers.map((data) => {
             if (data.userEmail === req.body.userEmail) {
                 res.send("already registered..")
-                res.end()
+//                 res.end()
                 return;
             }
         })
@@ -18,7 +18,7 @@ registerRouter.post("/", (req, res) => {
         // console.log(registerdUsers);
 
         res.send("Registered successfully..");
-        res.end();
+//         res.end();
     }
 });
 module.exports = { registerRouter, registerdUsers };
